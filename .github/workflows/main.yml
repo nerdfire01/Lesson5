@@ -15,7 +15,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Repository code
-        run: actions/checkout@v2
+        uses: actions/checkout@v2
         
       - name: Ausgabe des Inhalts
         run: cat src/frontend/app.js
